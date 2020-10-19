@@ -2,16 +2,28 @@
   <student_1>
     <sl._no.>23</sl._no.>
     <name>Jhon Carter</name>
-    <admission_date>25/12/2015</admission_date>
+    <admission_date>
+    <day>25</day>
+      <month>December</month>
+      <year>2015</year>
+    </admission_date>
   </student_1>
   <student_2>
     <sl._no.>29</sl._no.>
     <name>Bob Marshal</name>
-    <admission_date>13/01/1999</admission_date>
+    <admission_date>
+      <day>13</day>
+      <month>January</month>
+      <year>1999</year>
+    </admission_date>
   </student_2>
   <student_3>
     <sl._no.>35</sl._no.>
     <name>Clark Kent</name>
-    <admission_date>17/06/2005</admission_date>
+    <admission_date>
+    <day>17</day>
+      <month>June</month>
+      <year>2005</year>
+    </admission_date>
   </student_3>
 </student>
