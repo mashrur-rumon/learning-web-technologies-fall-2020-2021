@@ -1,5 +1,19 @@
 "use strict"
 
+function emailValidation()
+{
+    
+    let data = document.getElementById('emailId').value;
+    
+    if (data === "") 
+    {
+        
+        window.alert('Email is empty!');
+        
+    }
+    
+}
+
 function genderValidation()
 {
     
