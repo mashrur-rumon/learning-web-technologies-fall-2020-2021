@@ -1,37 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>REGISTRATION</title>
+    <meta charset="UTF-8">
+    <title>Registration</title>
 </head>
 <body>
-<center>
-	<form>
-		<table border="0" cellspacing="0" cellpadding="5">
-			<tr>
-				<td>
-					<fieldset>
-						<legend><b>REGISTRATION</b></legend>
-						Id<br />
-						<input type="text" name="id" /><br />
-						Password<br />
-						<input type="password" name="id"/><br />
-						Confirm Password<br />
-						<input type="password"name="id"/><br />
-                        Name<br />
-						<input type="text" name="id"/><br />
-                        Email<br />
-						<input type="email" name="id"/><br />
-                        User Type<i>User Admin)</i><br />
-						<select name="User Type" >
-				          <option value=""selected>Admin</option>
-				          <option value="">Client</option>			
-			            </select> 								
-						<hr />
-						<input type="submit" name="submit" value="Register"> <a href="../index.php">Login</a>						
-					</fieldset>
-				</td>
-			</tr>
-		</table>
-	</form>
-</center>
+    
+    <br><br><br><br><br><br>
+    
+    <center>
+        
+        <fieldset style="width:450px;">
+            
+            <legend><h1>Registration</h1></legend>
+            
+            <form>
+                
+                Id <br>
+                <input type="text" name="id"><br>
+                Password <br>
+                <input type="password" name="password"><br>
+                Confirm password <br>
+                <input type="password" name="cpassword"><br>
+                Name <br>
+                <input type="text" name="name"><br>
+                Email <br>
+                <input type="email" name="email"><br>           
+                User Type [User/Admin] <br>   
+                <select name="userType" >
+				    <option value="User">User</option>
+				    <option value="Admin">Admin</option>	
+			    </select>
+               
+               <hr>
+               
+               <input type="submit" name="submit" value="Register" onclick="registration()"> <a href="../index.php">Login</a> <br>
+                
+            </form>
+            
+        </fieldset>
+        
+        <div id="result"></div>
+        
+        <script type="text/javascript" src="../script/script.js"></script>
+        
+    </center>
+    
 </body>
 </html>
